@@ -1,5 +1,5 @@
 ﻿using Tyuiu.KorovinMK.Sprint5.Task2.V29.Lib;
-namespace Tyuiu.KorovinMK.Sprint5.Task2V29;
+namespace Tyuiu.KorovinMK.Sprint5.Task2.V29;
 
 class Program
 {
