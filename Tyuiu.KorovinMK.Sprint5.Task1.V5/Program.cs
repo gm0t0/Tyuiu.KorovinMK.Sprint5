@@ -35,7 +35,7 @@ class Program
         Console.WriteLine("*****************************************************************************");
         string res = ds.SaveToFileTextData(StartValue, StopValue);
 
-        Console.WriteLine("Файл: " + res);
+        Console.WriteLine("Файл: " + res); 
         Console.WriteLine("Создан!");
 
         Console.ReadKey();
