@@ -10,7 +10,7 @@ namespace Tyuiu.KorovinMK.Sprint5.Task4.V20.Lib
             double x = double.Parse(strX.Trim(), System.Globalization.CultureInfo.InvariantCulture);
 
             double y = Math.Pow(Math.Pow(x, 2) / Math.Sin(x), 3);
-            double res = Math.Round(y);
+            double res = Math.Round(y, 3);
             return res;
         }
 
