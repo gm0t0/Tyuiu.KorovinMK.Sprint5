@@ -21,7 +21,7 @@ namespace Tyuiu.KorovinMK.Sprint5.Task1.V5.Lib
             
             for ( int x = startValue; x <= stopValue; x ++)
             {
-                y = Math.Round(5 - 3 * x + (1 + Math.Sin(x) / 2 * x - 0.5), 2);
+                y = Math.Round(5 - 3 * x + ((1 + Math.Sin(x)) / (2 * x - 0.5)), 2);
                 strY = Convert.ToString(y);
 
                 if (x != stopValue)
